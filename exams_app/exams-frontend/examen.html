@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen en curso</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="main">
+    <h1>Examen de Matemáticas</h1>
+    <p><b>Tiempo restante:</b> <span id="timer">05:00</span></p>
+
+    <form id="examenForm">
+      <div class="pregunta">
+        <p>1. ¿Cuánto es 5 + 3?</p>
+        <input type="radio" name="p1" value="6"> 6 <br>
+        <input type="radio" name="p1" value="8"> 8 <br>
+        <input type="radio" name="p1" value="9"> 9 <br>
+      </div>
+
+      <div class="pregunta">
+        <p>2. La capital de Perú es:</p>
+        <input type="radio" name="p2" value="Lima"> Lima <br>
+        <input type="radio" name="p2" value="Cusco"> Cusco <br>
+        <input type="radio" name="p2" value="Arequipa"> Arequipa <br>
+      </div>
+
+      <button type="submit">Enviar Examen</button>
+    </form>
+    <p id="resultado"></p>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
